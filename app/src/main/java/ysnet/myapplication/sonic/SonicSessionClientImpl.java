@@ -11,7 +11,7 @@
  *
  */
 
-package ysnet.myapplication;
+package ysnet.myapplication.sonic;
 
 import android.os.Bundle;
 import android.webkit.WebView;

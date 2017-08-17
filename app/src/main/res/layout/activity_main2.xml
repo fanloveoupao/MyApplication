@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="ysnet.myapplication.Main2Activity">
+
+    <Button
+        android:id="@+id/btn_load_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="默认" />
+
+    <Button
+        android:id="@+id/btn_load_sonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SONIC" />
+
+    <Button
+        android:id="@+id/btn_pre_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预加载" />
+
+    <Button
+        android:id="@+id/btn_default_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本地缓存" />
+
+    <Button
+        android:id="@+id/btn_sonic_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sonic缓存" />
+
+
+</LinearLayout>

@@ -11,7 +11,7 @@
  *
  */
 
-package ysnet.myapplication;
+package ysnet.myapplication.sonic;
 
 import android.content.Context;
 import android.os.Build;
@@ -19,7 +19,6 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.CookieManager;
-import android.webkit.CookieSyncManager;
 import android.webkit.WebResourceResponse;
 
 import com.tencent.sonic.sdk.SonicRuntime;
@@ -29,6 +28,8 @@ import java.io.File;
 import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
+
+import ysnet.myapplication.BuildConfig;
 
 /**
  * the sonic host application must implement SonicRuntime to do right things.
